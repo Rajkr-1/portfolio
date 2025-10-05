@@ -131,7 +131,6 @@ export function Hero() {
           <MagneticButton>
             <a
               href="/mycv.pdf"
-               target="_blank"
                rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-white bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded shadow-md hover:scale-105 transition-transform"
             >
