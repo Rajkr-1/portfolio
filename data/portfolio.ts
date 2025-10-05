@@ -3,23 +3,36 @@ import { Project, Experience, Education, Achievement, Skill, Certificate, Coding
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce platform with payment integration, user authentication, and admin dashboard.',
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/Rajkr-1',
-    liveUrl: 'https://example.com',
-    imageUrl: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800'
+    title: 'Splitrr – Expense Sharing App',
+    description:
+      'A full-stack Splitwise clone enabling users to split bills, track balances, and manage group expenses in real-time with authentication and group management features.',
+    technologies: ['Next.js', 'Node.js', 'React.js', 'Tailwind CSS', 'PostgreSQL'],
+    githubUrl: 'https://github.com/Rajkr-1/splitrr.git',
+    liveUrl: 'https://splitrr-alpha.vercel.app', // Add Render or Vercel URL if deployed
+    imageUrl: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
- 
   {
     id: '2',
-    title: 'Weather Dashboard',
-    description: 'Beautiful weather dashboard with location-based forecasts and interactive maps.',
-    technologies: ['React', 'TypeScript', 'OpenWeather API', 'Chart.js'],
-    githubUrl: 'https://github.com/Rajkr-1',
-    imageUrl: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800'
+    title: 'VibeSync – Real-Time Collaborative Music & Chat App',
+    description:
+      'A real-time chat and music app allowing multiple users to join rooms, chat, and watch synchronized YouTube videos with smooth, responsive UI using Socket.IO and Tailwind CSS.',
+    technologies: ['Next.js', 'React.js', 'Socket.IO', 'YouTube API', 'Tailwind CSS'],
+    githubUrl: 'https://github.com/Rajkr-1/my-chat-frontend.git',
+    liveUrl: 'https://mychatap.onrender.com', // Replace with Render.com live link
+    imageUrl: 'https://images.pexels.com/photos/164879/pexels-photo-164879.jpeg?auto=compress&cs=tinysrgb&w=800'
+  },
+  {
+    id: '3',
+    title: 'FileEncryptDecrypt – Commandline File Encryption & Decryption Tool',
+    description:
+      'A C++17 command-line tool for encrypting and decrypting files using <filesystem> for directory traversal with modular architecture and Makefile-based automation.',
+    technologies: ['C++17', 'Linux', 'Makefile', 'File I/O', 'Encryption'],
+    githubUrl: 'https://github.com/Rajkr-1/FILE-ENCRYPT-DECRYPT.git',
+    liveUrl: '',
+    imageUrl: 'https://images.pexels.com/photos/5380643/pexels-photo-5380643.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
 ];
+
 
 export const experience: Experience[] = [
   {
